@@ -60,7 +60,7 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/og/tocratst.png",
   label: "Home",
   title: `Tocratst`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
@@ -277,10 +277,8 @@ const about: About = {
         title: "Next.js",
         description: (
           <>
-            Build dynamic and scalable web applications using Next.js and
-            React.js, implement robust front-end logic with JavaScript and
-            TypeScript, and optimize component architecture, API integration,
-            and performance to deliver smooth and maintainable user experiences.
+            Build dynamic and scalable web applications using Next.js //
+            React.js.
           </>
         ),
         tags: [
@@ -308,11 +306,8 @@ const about: About = {
         title: "Node.js",
         description: (
           <>
-            Building backend applications with Node.js and Express.js, utilizing
-            JavaScript and TypeScript to develop secure, efficient, and
-            maintainable server-side logic. Experienced in designing RESTful
-            APIs, handling authentication, managing databases, and integrating
-            backend services to support robust application architectures
+            Building secure and maintainable backend applications with Node.js
+            // Express.js.
           </>
         ),
         tags: [
@@ -340,10 +335,8 @@ const about: About = {
         title: "Amazon Web Services (AWS)",
         description: (
           <>
-            Manage EC2 instances for scalable server deployment, configure S3
-            for secure cloud storage and lifecycle management, and optimize RDS
-            databases by setting up backups, performance monitoring, and secure
-            access controls to support reliable application infrastructure
+            Managing scalable and secure cloud infrastructure with AWS EC2, S3,
+            and RDS.
           </>
         ),
         tags: [
@@ -398,44 +391,55 @@ const gallery: Gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
+      src: "/images/gallery/yp-1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-4.jpg",
+      src: "/images/gallery/ed-2.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/horizontal-3.jpg",
+      src: "/images/gallery/yp-2.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-1.jpg",
+      src: "/images/gallery/ed-1.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+
+    {
+      src: "/images/gallery/po-1.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-2.jpg",
+      src: "/images/gallery/po-2.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/horizontal-2.jpg",
+      src: "/images/gallery/go-1.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/go-2.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-4.jpg",
+      src: "/images/gallery/go-3.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-3.jpg",
+      src: "/images/gallery/go-4.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
   ],
 };
