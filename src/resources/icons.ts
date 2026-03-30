@@ -35,6 +35,11 @@ import {
   SiAmazons3,
   SiAmazonec2,
   SiAmazonrds,
+  SiLaravel,
+  SiPostgresql,
+  SiMongodb,
+  SiDocker,
+  SiNginx,
 } from "react-icons/si";
 
 import {
@@ -87,6 +92,12 @@ export const iconLibrary: Record<string, IconType> = {
   rds: SiAmazonrds,
   supabase: SiSupabase,
   figma: SiFigma,
+  laravel: SiLaravel,
+  postgresql: SiPostgresql,
+  mongodb: SiMongodb,
+  docker: SiDocker,
+  nginx: SiNginx,
+  server: SiNodedotjs,
   facebook: FaFacebook,
   pinterest: FaPinterest,
   whatsapp: FaWhatsapp,

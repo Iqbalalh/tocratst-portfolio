@@ -80,9 +80,9 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Iqbal, an engineer who creates simple, effective solutions for complex
-      challenges. After hours, I explore the worlds of science and technology to
-      fuel my passion for learning and building.
+      Iqbal Alhafidzu is a Computer Science graduate from Universitas Lampung
+      with a strong passion for the tech industry, particularly in Software
+      Engineering, Machine Learning, and Data Science.
     </>
   ),
 };
@@ -120,29 +120,30 @@ const about: About = {
     experiences: [
       {
         company: "Yayasan Pusaka KAI",
-        timeframe: "Aug 2025 - Nov 2025",
+        timeframe: "Aug 2025 – Jan 2026",
         role: "Full Stack Engineer",
         achievements: [
           <>
-            Developed the GEOPUSAKA application, a crucial geo-mapping tool
-            providing critical family and UMKM information, alongside navigation
-            features to optimize the Foundation's programs.
+            Achieved 100% data consistency across 1,000+ beneficiary records by
+            building a centralized information system, which eliminated the 2%
+            discrepancy rate previously found between departments (Next.js,
+            Node.js, PostgreSQL).
           </>,
           <>
-            Engineered a centralized database system that integrated and
-            synchronized all data across various Foundation divisions, achieving
-            100% data consistency and eliminating previous discrepancies.
+            Reduced data retrieval time from several minutes to just seconds by
+            developing a web-based mapping application and an integrated
+            documentation gallery (React.js).
           </>,
           <>
-            Architected NAYAPUSAKA backend application, that serve as a central,
-            scalable infrastructure for future development and deployment of the
-            Foundation’s applications.
+            Ensured high system reliability and 99.9% uptime by managing cloud
+            infrastructure and server operations to support the organization's
+            digital platforms (AWS RDS, S3, Docker, VPS, Nginx).
           </>,
           <>
-            Led the domain migration and SEO acquisition strategy for
-            yayasanpusakakai.org, resulting in the #1 organic ranking for
-            branded keywords "Yayasan Pusaka KAI" and successfully executing the
-            technical de-indexing of the legacy domain.
+            Improved organic visibility by moving the average SEO position from
+            10 to 3 and more than doubling the CTR from 4.2% to 9.3% through
+            strategic domain migration and search engine optimization (Google
+            Search Console).
           </>,
         ],
         images: [
@@ -163,18 +164,22 @@ const about: About = {
       },
       {
         company: "Ganesha Operation",
-        timeframe: "Jan 2025 - Nov 2025",
+        timeframe: "Jan 2025 – Nov 2025",
         role: "Informatics Tutor",
         achievements: [
           <>
-            Taught Informatics to elementary, junior, and senior high school
-            students, designing lessons tailored to each learning stage to
-            introduce core computer science and informatics concepts.
+            Educated over 800 students across elementary, junior, and senior
+            high school levels by delivering direct in-class instruction on core
+            computer science and informatics concepts.
           </>,
           <>
-            Provided over 70 hours of intensive personalized guidance (TST),
-            resulting in more than 80% of students achieving scores above 80 in
-            Informatics.
+            Analyzed and solved over 1,000 informatics problems for various
+            educational levels by designing tiered lesson plans tailored to each
+            student's learning stage.
+          </>,
+          <>
+            Increased the frequency of perfect scores by 25% in both exams and
+            assignments by providing intensive personalized guidance.
           </>,
         ],
         images: [
@@ -195,20 +200,20 @@ const about: About = {
       },
       {
         company: "Educourse.id",
-        timeframe: "Feb 2024 - Jun 2024",
+        timeframe: "Feb 2024 – Jun 2024",
         role: "Full Stack Engineer (Intern)",
         achievements: [
           <>
             Engineered the akademikerja.id platform to facilitate job market
-            connectivity, focusing on implementing key features such as robust
-            account authentication, secure document upload capabilities, and
-            optimized job application workflows for an enhanced user
-            experiences.
+            connectivity by implementing robust account authentication, secure
+            document uploads, and streamlined application workflows, resulting in
+            a more efficient and secure user experience (Next.js, MongoDB, S3).
           </>,
           <>
-            Maintained and optimized multiple web applications within the Maleo
-            Group ecosystem, ensuring high performance, scalability, and a
-            consistent user experience.
+            Managed and optimized over 10 integrated web applications within
+            the Maleo Group ecosystem, ensuring consistent high performance,
+            99.9% system uptime, and seamless scalability across all platforms
+            (React.js).
           </>,
         ],
         images: [
@@ -228,18 +233,20 @@ const about: About = {
       },
       {
         company: "Polda Lampung",
-        timeframe: "Dec 2023 - Feb 2024",
+        timeframe: "Dec 2023 – Feb 2024",
         role: "Full Stack Engineer (Intern)",
         achievements: [
           <>
-            Developed a Tribratanews clone, a police news portal designed to
-            deliver accurate and trustworthy public information, featuring
-            dynamic news browsing, article reading, and an admin dashboard for
-            content management.
+            Developed a clone police news portal to facilitate the delivery of
+            verified public information, featuring a dynamic content management
+            system (CMS) that enables real-time news publishing and
+            administrative control (Laravel, React.js, PostgreSQL).
           </>,
           <>
-            Assisted in creating social media content for Instagram and TikTok,
-            and supported live press conference coverage within Polda Lampung.
+            Strengthened Polda Lampung's digital presence by producing social
+            media content for Instagram and TikTok and providing technical
+            support for live press conference coverage to ensure seamless public
+            communication.
           </>,
         ],
         images: [
@@ -271,14 +278,14 @@ const about: About = {
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Technical Skills",
     skills: [
       {
-        title: "Next.js",
+        title: "Software Engineer",
         description: (
           <>
-            Build dynamic and scalable web applications using Next.js //
-            React.js.
+            Build dynamic and scalable web applications using modern frameworks
+            and technologies.
           </>
         ),
         tags: [
@@ -298,27 +305,6 @@ const about: About = {
             name: "React.js",
             icon: "reactjs",
           },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [],
-      },
-      {
-        title: "Node.js",
-        description: (
-          <>
-            Building secure and maintainable backend applications with Node.js
-            // Express.js.
-          </>
-        ),
-        tags: [
-          {
-            name: "TypeScript",
-            icon: "typescript",
-          },
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
           {
             name: "Node.js",
             icon: "nodejs",
@@ -327,16 +313,28 @@ const about: About = {
             name: "Express.js",
             icon: "expressjs",
           },
+          {
+            name: "Laravel",
+            icon: "laravel",
+          },
+          {
+            name: "PostgreSQL",
+            icon: "postgresql",
+          },
+          {
+            name: "MongoDB",
+            icon: "mongodb",
+          },
         ],
         // optional: leave the array empty if you don't want to display images
         images: [],
       },
       {
-        title: "Amazon Web Services (AWS)",
+        title: "Cloud Infrastructure",
         description: (
           <>
-            Managing scalable and secure cloud infrastructure with AWS EC2, S3,
-            and RDS.
+            Manage scalable and secure cloud infrastructure with AWS and
+            containerization technologies.
           </>
         ),
         tags: [
@@ -355,6 +353,18 @@ const about: About = {
           {
             name: "AWS S3",
             icon: "s3",
+          },
+          {
+            name: "Docker",
+            icon: "docker",
+          },
+          {
+            name: "Nginx",
+            icon: "nginx",
+          },
+          {
+            name: "VPS",
+            icon: "server",
           },
         ],
         // optional: leave the array empty if you don't want to display images
